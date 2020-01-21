@@ -4,7 +4,7 @@ Google's new redesign makes it almost impossible to tell which results are ads: 
 
 This simple extension fixes the design to highlight ads much more clearly. 
  
-## Manuall install extension
+## Manually install extension
 
 1. Go to chrome://extensions/ and check the box for Developer mode in the top right.
 
