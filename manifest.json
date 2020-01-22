@@ -2,8 +2,8 @@
     "manifest_version": 2,
    
     "name": "Ad Highlighter",
-    "version": "0.1.0",
-    "description": "Makes Google ads more prominent",
+    "version": "0.2.0",
+    "description": "Fixes Google Search results page to make ads more prominent",
    
     "content_scripts": [{
       "css": ["styles.css"],

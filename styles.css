@@ -2,20 +2,34 @@
    background: rgb(254, 251, 231);
    padding: 10px;
    border-radius: 5px;
-   max-height: 65px;
    overflow: scroll;
-   border: 1px solid rgb(222, 167, 57);
+   border: 1px solid rgb(247, 238, 176);
+   overflow: hidden;
+   max-height: 50px;
 }
 
-.ads-ad:before {
-   content: "Advert";
-   background: #ffe93e;
-   padding: 1px 6px;
+.ads-ad h3 {
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   max-width: 100%;
    margin-bottom: 5px;
    display: inline-block;
    border-radius: 3px;
-   text-transform: uppercase;
-   font-size: .75em;
-   letter-spacing: .05em;
-   font-weight: 500;
+}
+
+.ads-ad div:not(:first-child) {
+   display: none;
+}
+
+.ads-visurl > span:first-child {
+   background: transparent;
+   background: #ffe93e;
+   padding: 2px 4px;
+   border-radius: 3px;
+   margin-right: 6px;
+}
+
+.ads-visurl > span:first-child span {
+   display: none;
 }
